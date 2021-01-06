@@ -1,0 +1,45 @@
+<h1>Mountains</h1>
+
+<div id="mountains"></div>
+
+<script>
+  const MOUNTAINS = [
+    { name: "Kilimanjaro", height: 5895, place: "Tanzania" },
+    { name: "Everest", height: 8848, place: "Nepal" },
+    { name: "Mount Fuji", height: 3776, place: "Japan" },
+    { name: "Vaalserberg", height: 323, place: "Netherlands" },
+    { name: "Denali", height: 6168, place: "United States" },
+    { name: "Popocatepetl", height: 5465, place: "Mexico" },
+    { name: "Mont Blanc", height: 4808, place: "Italy/France" },
+  ];
+
+  // Your code here
+  const table = document.createElement("table");
+
+  // Create header
+  const header = document.createElement("tr");
+  const headerKeys = Object.keys(MOUNTAINS[0]);
+
+  for (const k of headerKeys) {
+    const th = document.createElement("th");
+    th.appendChild(document.createTextNode(k));
+    header.appendChild(th);
+  }
+  table.appendChild(header);
+
+  // Populate data
+  for (const i of MOUNTAINS) {
+    const row = document.createElement("tr");
+
+    for (const k of headerKeys) {
+      const td = document.createElement("td");
+      td.appendChild(document.createTextNode(i[k]));
+      row.appendChild(td);
+    }
+
+    table.appendChild(row);
+  }
+
+  const mountPoint = document.querySelector("#mountains");
+  mountPoint.appendChild(table);
+</script>
