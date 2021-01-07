@@ -1,0 +1,15 @@
+<p id="balloon">🎈</p>
+
+<script>
+  // Your code here
+  const balloon = document.querySelector("#balloon");
+  let size = 10;
+
+  balloon.style.textSize = size + "px";
+
+  const inflate = () => (size += 10);
+  const deflate = () => (size -= 10);
+
+  balloon.addEventListener("ArrowUp", inflate);
+  balloon.addEventListener("ArrowDown", deflate);
+</script>
