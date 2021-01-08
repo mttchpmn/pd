@@ -6,9 +6,36 @@
   <div data-tabname="three">Tab three</div>
 </tab-panel>
 <script>
+  function createButtonSpan(node) {
+    const buttons = Array.from(node.children).map((n) => {
+      const btn = document.createElement("button");
+      const tabName = n.getAttribute("data-tabname");
+      btn.textContent = tabName;
+      btn.addEventListener("click", () => setActiveTab(tabName));
+
+      return btn;
+    });
+
+    const span = document.createElement("div");
+    buttons.forEach((b) => span.appendChild(b));
+
+    return span;
+  }
+
+  function setActiveTab(tab) {
+    const tabs = Array.from(document.querySelectorAll("[data-tabname]"));
+    tabs.forEach((t) => {
+      if (t.getAttribute("data-tabname") === tab) {
+        t.style.display = "initial";
+      } else {
+        t.style.display = "none";
+      }
+    });
+  }
+
   function asTabs(node) {
-    // Your code here.
-    // TODO
+    setActiveTab("one");
+    node.insertBefore(createButtonSpan(node), node.firstChild);
   }
   asTabs(document.querySelector("tab-panel"));
 </script>
