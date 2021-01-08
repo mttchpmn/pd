@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<body></body>
+
+<style>
+  .trail {
+    /* className for the trail elements */
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    background: teal;
+  }
+  body {
+    height: 300px;
+  }
+</style>
+
+<script>
+  function createDot() {
+    const node = document.createElement("div");
+    node.className = "trail";
+    node.style.display = "none";
+
+    return node;
+  }
+
+  const dots = [];
+  for (let i = 0; i < 10; i++) {
+    const dot = createDot();
+    dots.push(dot);
+
+    document.body.appendChild(dot);
+  }
+
+  // TODO - Use requestAnimationFrame instead
+
+  let counter = 0;
+  function handleMouseMove(event) {
+    console.log("move");
+    console.log({ dots });
+    const left = event.clientX;
+    const top = event.clientY;
+
+    const node = dots[counter];
+    node.style.display = "initial";
+    node.style.left = left + "px";
+    node.style.top = top + "px";
+
+    // // Hide trail after 100ms
+    setTimeout(() => {
+      node.style.display = "none";
+    }, 100);
+
+    counter = (counter + 1) % dots.length;
+  }
+  document.addEventListener("mousemove", handleMouseMove);
+</script>

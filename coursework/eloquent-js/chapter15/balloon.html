@@ -1,15 +1,38 @@
 <p id="balloon">🎈</p>
 
 <script>
-  // Your code here
-  const balloon = document.querySelector("#balloon");
-  let size = 10;
+  const setSize = () => {
+    const balloon = document.querySelector("#balloon");
 
-  balloon.style.textSize = size + "px";
+    let _size = 0;
+    const grow = (num) => {
+      _size += num;
+      balloon.style.fontSize = _size + num;
+      if (_size > 100) balloon.textContent = "POP!";
+    };
+    const shrink = (num) => {
+      _size -= num;
+      balloon.style.fontSize = _size - num;
+    };
 
-  const inflate = () => (size += 10);
-  const deflate = () => (size -= 10);
+    return [grow, shrink];
+  };
 
-  balloon.addEventListener("ArrowUp", inflate);
-  balloon.addEventListener("ArrowDown", deflate);
+  // setSize(10);
+  const [grow, shrink] = setSize();
+  const inflate = (event) => {
+    event.preventDefault();
+    // setSize(10);
+    grow(10);
+  };
+  const deflate = (event) => {
+    event.preventDefault();
+    // setSize(-10);
+    shrink(10);
+  };
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown") deflate(event);
+    if (event.key === "ArrowUp") inflate(event);
+  });
 </script>
