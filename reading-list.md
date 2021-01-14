@@ -14,15 +14,17 @@
 
 ## Reading List
 
+Any entries in **bold** indicate a high-priority or critical resource. Any entries in ~~strikethrough~~ indicate a de-prioritised or potentially redundant resource.
+
 ### Software Architecture
 
 - Patterns of Enterprise Application Architecture
-- Design Patterns: Elements of Reusable Object-Oriented software (X)
+- ~~Design Patterns: Elements of Reusable Object-Oriented software~~
 
 ### Computer Science
 
+- **Structure and Interpretation of Computer Programs**
 - Computer systems - A programmers perspective
-- Structure and Interpretation of Computer Programs
 
 ### Database Design and SQL
 
@@ -36,14 +38,14 @@
 
 ### Domain Driven Design
 
-- Domain Driven Design Distilled - Vaughn Vernon
+- **Domain Driven Design Distilled - Vaughn Vernon**
 - Implementing Domain Driven - Vaughn Vernon
-- Domain Driven Design - Eric Evans (X)
+- ~~Domain Driven Design - Eric Evans~~
 
 ### Algorithms and Data Structures
 
-- Introduction to algorithms (CLRS)
-- The Art of Computer Programming - Knuth (X)
+- Introduction to algorithms - CRLS
+- ~~The Art of Computer Programming - Knuth~~
 
 ### AGILE
 
