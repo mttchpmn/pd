@@ -49,22 +49,30 @@ Any entries in **bold** indicate a high-priority or critical resource. Any entri
 
 ### AGILE
 
+- **Scrum Mastery**
 - Clean Agile - Martin
+
+### SDLC
+
+- The Phoenix Project
+- **The Unicorn Project**
+- The Mythical Man-Month
 
 ### Humans Factors and Soft Skills
 
 - Clean Coder - Martin
-- The Mythical Man-Month
 
 ### Language: C Sharp
 
 - C# in a nutshell
 
+### Language: C Sharp
+
+- The C Programming Language - Kernighan
+
 ### Miscellaneous
 
-- The Phoenix Project
 - Cracking the coding interview
 - Don't Make Me Think
 - Programming Pearls
 - CODE - The Hidden Language of Computers
-- The C Programming Language - Kernighan
