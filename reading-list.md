@@ -16,6 +16,11 @@
 
 Any entries in **bold** indicate a high-priority or critical resource. Any entries in ~~strikethrough~~ indicate a de-prioritised or potentially redundant resource.
 
+## Debugging and Refactoring
+
+- **Debugging Indispensable Software and Hardware Problems**
+- **Working Effectively with Legacy Software**
+
 ### Software Architecture
 
 - Patterns of Enterprise Application Architecture
