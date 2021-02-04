@@ -75,6 +75,10 @@ Any entries in **bold** indicate a high-priority or critical resource. Any entri
 
 - The C Programming Language - Kernighan
 
+### Frontend / UI
+
+- [Refactoring UI](https://refactoringui.com/book/#get-refactoring-ui)
+
 ### Miscellaneous
 
 - Cracking the coding interview
