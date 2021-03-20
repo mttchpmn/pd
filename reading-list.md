@@ -51,6 +51,9 @@ Any entries in **bold** indicate a high-priority or critical resource. Any entri
 
 - Introduction to algorithms - CRLS
 - ~~The Art of Computer Programming - Knuth~~
+- Grokking Algorithms
+- The Algorithm Design Manual
+- Algorithms (Sedgewick)
 
 ### AGILE
 
