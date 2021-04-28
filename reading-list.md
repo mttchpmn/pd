@@ -14,16 +14,17 @@
 
 ## Reading List
 
-Any entries in **bold** indicate a high-priority or critical resource. Any entries in ~~strikethrough~~ indicate a de-prioritised or potentially redundant resource.
+Any entries in **bold** indicate a high-priority or critical resource. Any entries in ~~strikethrough~~ indicate a de-prioritised or potentially redundant resource. Any entries with a question mark (?) following indicate a resource that requires confirmation to add to reading list
 
-## Debugging and Refactoring
+### Debugging and Refactoring
 
 - **Debugging Indispensable Software and Hardware Problems**
 - **Working Effectively with Legacy Software**
 
 ### Software Architecture
 
-- Patterns of Enterprise Application Architecture
+- **Patterns of Enterprise Application Architecture**
+- Software architecture in practice, Len Bass
 - ~~Design Patterns: Elements of Reusable Object-Oriented software~~
 
 ### Computer Science
@@ -45,11 +46,11 @@ Any entries in **bold** indicate a high-priority or critical resource. Any entri
 
 - **Domain Driven Design Distilled - Vaughn Vernon**
 - Implementing Domain Driven - Vaughn Vernon
-- ~~Domain Driven Design - Eric Evans~~
+- Domain Driven Design - Eric Evans
 
 ### Algorithms and Data Structures
 
-- Introduction to algorithms - CRLS
+- **Introduction to algorithms - CRLS**
 - ~~The Art of Computer Programming - Knuth~~
 - Grokking Algorithms
 - The Algorithm Design Manual
@@ -72,11 +73,18 @@ Any entries in **bold** indicate a high-priority or critical resource. Any entri
 
 ### Language: C Sharp
 
-- C# in a nutshell
+- **C# 9.0 in a nutshell**
+- Head first C#
+- C# In depth
+- Programming C#
 
-### Language: C Sharp
+### Language: C
 
 - The C Programming Language - Kernighan
+
+### Language: Java
+
+- Effective Java
 
 ### Frontend / UI
 
