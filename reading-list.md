@@ -11,6 +11,13 @@
 - The Imposters Handbook
 - Clean Architecture - Martin
 - Desigining data-intensive applications
+- Cracking the coding interview
+- **Introduction to algorithms - CRLS**
+- **Patterns of Enterprise Application Architecture**
+- **Domain Driven Design Distilled - Vaughn Vernon**
+- Implementing Domain Driven - Vaughn Vernon
+- **C# 9.0 in a nutshell**
+- Effective Java
 
 ## Reading List
 
@@ -23,7 +30,6 @@ Any entries in **bold** indicate a high-priority or critical resource. Any entri
 
 ### Software Architecture
 
-- **Patterns of Enterprise Application Architecture**
 - Software architecture in practice, Len Bass
 - ~~Design Patterns: Elements of Reusable Object-Oriented software~~
 
@@ -35,22 +41,19 @@ Any entries in **bold** indicate a high-priority or critical resource. Any entri
 ### Database Design and SQL
 
 - SQL queries for mere mortals
+- SQL cookbook
 - SQL Antipatterns: Avoiding the Pitfalls of Database Programming
 - Database design for mere mortals
 - Begninning Database design solutions
 
 - The Art of SQL (?)
-- SQL cookbook (?)
 
 ### Domain Driven Design
 
-- **Domain Driven Design Distilled - Vaughn Vernon**
-- Implementing Domain Driven - Vaughn Vernon
 - Domain Driven Design - Eric Evans
 
 ### Algorithms and Data Structures
 
-- **Introduction to algorithms - CRLS**
 - ~~The Art of Computer Programming - Knuth~~
 - Grokking Algorithms
 - The Algorithm Design Manual
@@ -73,7 +76,6 @@ Any entries in **bold** indicate a high-priority or critical resource. Any entri
 
 ### Language: C Sharp
 
-- **C# 9.0 in a nutshell**
 - Head first C#
 - C# In depth
 - Programming C#
@@ -84,7 +86,6 @@ Any entries in **bold** indicate a high-priority or critical resource. Any entri
 
 ### Language: Java
 
-- Effective Java
 
 ### Frontend / UI
 
@@ -92,7 +93,6 @@ Any entries in **bold** indicate a high-priority or critical resource. Any entri
 
 ### Miscellaneous
 
-- Cracking the coding interview
 - Don't Make Me Think
 - Programming Pearls
 - CODE - The Hidden Language of Computers
